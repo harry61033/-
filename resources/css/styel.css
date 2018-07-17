@@ -1,0 +1,87 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+hmtl,body{font-size: 18px;font-weight: 300;font-family: 'Noto Sans', sans-serif;background-image: url('img/cdust_scratches.png')}
+h1{font-weight: 300;margin-top: 80px;font-size: 120%;letter-spacing: 6px;}
+h2{font-size: 200%;letter-spacing: 4px;font-weight: 400;}
+h1:after{display: block;background-color: #e03d44;content: "";height: 2px;width: 50px;margin-top: 15px;}
+.text-box{color: #fff;position: absolute;transform: translate(10%, 110%);}
+header{background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)),url('img/apple-beautiful-blooming-977975.jpg');
+height: 100vh;background-size: cover;background-position: center;background-attachment:fixed;}
+
+.btn:link{margin-top: 20px;font-weight: 100;border-radius: 8px;/* background-color: #e04d44; */transition:0.5s;}
+.btn-full:link,.btn-full:visited{background-color: #e03d44;color: #fff;}
+.btn-full:hover{background-color: rgba(224, 61, 68, .9);}
+
+/* about-us */
+
+.about-us{height: 35vh;}
+.title-row{margin-top: 40px;}
+.title:after{display: block;background-color: #e03d44;content: "";height: 2px;width: 50px;margin-top: 15px;margin-left: auto;margin-right: auto;}
+.title{margin-top: 40px;margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+p{font-size: 16px;line-height: 1.9;float: left;}
+
+/* menu */
+/* .imgBox{background-image: url('img/lunch.jpg')} */
+.Meals1{background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('img/breakfast.jpg');background-size: cover;background-position: 50% 50%;}
+.Meals2{background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('img/lunch.jpg');background-size: cover;background-position: 50% 50%;}
+.Meals3{background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('img/Drink.jpg');background-size: cover;background-position: 50% 50%;}
+
+.MealsBox{height:465px;}
+.menu{height: 465px;}
+.textimgBox{position: absolute;bottom: 40px;padding: 24px;color: #fff;}
+.textimgBox spna{font-size: 24px;color: #fff;}
+.textimgBox span:after{width: 40px;height: 2px;background-color: #e04a44;margin-top: 6px;content: "";display: block;}
+.bgBlack{background-color: rgba(42, 43, 47, 1);width: 100%;}
+.menuh3{color: #fff; }
+.bgBlack p,h3{color: #fff;}
+.bgBlack p{font-size: 18px;}
+.bgBlack h3{font-size: 30px;letter-spacing: 1px;}
+.bgBlack h3:after{height: 2px;background-color: #e04a44;content: "";width: 40px;margin-top: 10px;display: block;}
+.bgBlack{padding: 80px 40px;}
+.ctaBtns{margin-top: 20px;}
+.button{line-height: 1;padding: 12px 12px;letter-spacing: 2px;font-size: 14px;background-color: #fff;color: rgba(42, 43, 47, 1);border-radius: 8px;}
+.bttton:hover{text-decoration: none;color:rgba(239,36,106);transition: 0.4;}
+.breakfast-h3{color: #000;}
+.food-breakfast{background-image: linear-gradient(rgba(255, 255, 255, .4),rgba(255, 255, 255, .4)),url('img/bradkfast02.jpg');
+background-size: cover;background-position: 50% 50%;height: 640px;}
+.list.sustom{font-size: 14px;font-weight: 400;margin:20px;}
+.menuitem{padding-left: 20px;}
+.menuitem span{display: inline-block;padding-bottom: 10px;font-size: 16px;font-weight: 600;color: rgba(42, 43, 47, 1);}
+.smalltext{font-size: 13.5px;opacity: 0.8;}
+.marginbottom{margin:80px 8px 70px 20px;}
+.bagel-row{margin-top: 40px;}
+
+/* meals */
+
+.meal-photo {background-color: #000;overflow: hidden;height: 310px; padding: 0;}
+.main-foot-content{opacity: 0.7;width: 100%;transition: opacity 0.5s;}
+.main-foot-content:hover{opacity: 1;}
+
+/* testimonial */
+
+.bgwhite-testimonial{background-image: url('img/ restaurant.jpg');height: 100vh;background-size: cover;background-position: center;}
+.bgwhite-testimonial{background-color:#fff;height: 100vh;}
+.mario-img{width: 70px;border-radius: 100%;}
+.mario-img:hover{transform: scale(1.1);transition: 0.5s;}
+.tetilmonmeta{font-size: 15px;font-weight: 600;margin-top: 10px;}
+.tetilmonmeta span{display: block;font-weight: 400;color: rgba(42, 43, 47, .7);font-size: 12px;}
+.tetimoncontent p:before,.tetimoncontent p:after{content: "";}
+.tetimoncontent p{padding-top: 20px;}
+.box{margin-top: 20px;}
+
+/* contact */
+
+.messenger{margin:50px;}
+.bgcolor{height: 480px;background-color: #e44424;}
+.bgcolor h3,.bgcolor p{color: rgba(255, 255, 255, 1.0);}
+.bgcolor h3:after{background-color: #fff;}
+.bgwwhite{height: 480px;background-color: rgba(255, 255, 255, 1.0);}
+.mail:hover{color: #rgba(224, 66, 19, 0.19);}
+.Mykitchen{color: #000;}
+
+#map{width: 100%;height: 480px;}
+
+/* footer */
+
+.footerbg{background-color: rgba(42, 43, 47, 0.96);color: #fff;}
+.social-links{margin-top: 4px;font-size: 15px;}
+.social-links li{display: block;}
